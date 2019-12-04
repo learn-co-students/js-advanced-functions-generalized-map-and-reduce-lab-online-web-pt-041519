@@ -19,7 +19,8 @@ function reduce(array, callBack, startingPoint) {
 
     return result;
 
-
+    // DUMB WAY THAT I HAD TO DO IT BECAUSE THEY DIDN'T PROPERLY EXPLAIN #reduce
+    // WOULD NOT WORK WITH MULTIPLICATION OR DIVISION
     // function checkNum(element) { return typeof element === "number" }
     // let allNums = array.every(checkNum);
     // let r = allNums ? startingPoint || 0 : true;
